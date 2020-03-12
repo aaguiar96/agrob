@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="visualize" default="false" />
+
+    <include file="$(find agrob_bringup)/launch/load_model.launch" />
+
+    <node pkg="rviz" type="rviz" name="rviz" required="false" args="-d $(find agrob_bringup)/config/config.rviz" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"></node>
+</launch>
