@@ -5,7 +5,7 @@ Multi-sensor calibration for Agrob
 ## Setup
 
 To use this repo you should
-- Include the (husky repository)[https://github.com/husky/husky] in you ROS catkin_ws.
+- Include the [husky repository](https://github.com/husky/husky) in you ROS catkin_ws.
 
 ## Visualize robot model
 
