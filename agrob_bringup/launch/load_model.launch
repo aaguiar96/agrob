@@ -8,7 +8,7 @@
 
 
   <arg name="robot_description" default="robot_description"/>
-  <param name="$(arg robot_description)" command="$(find xacro)/xacro '$(find agrob_description)/urdf/agrob_macro.urdf.xacro'
+  <param name="$(arg robot_description)" command="$(find xacro)/xacro '$(find agrob_description)/urdf/agrob.urdf.xacro'
     --inorder
     robot_namespace:=$(arg robot_namespace)
     laser_enabled:=$(arg laser_enabled)
