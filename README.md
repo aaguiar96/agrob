@@ -6,6 +6,8 @@ Multi-sensor calibration for Agrob
 
 To use this repo you should
 - Include the [husky repository](https://github.com/husky/husky) in you ROS catkin_ws.
+- Include the [hector_models
+  repository](https://github.com/tu-darmstadt-ros-pkg/hector_models) in you ROS catkin_ws.
 
 ## Visualize robot model
 

@@ -1,11 +1,15 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="agrob">
     <xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro" />
+    <xacro:include filename="$(find hector_sensors_description)/urdf/vlp16.urdf.xacro" />
 
     <xacro:macro name="agrob" params="prefix">
 
         <!-- vehicle model -->
-        <xacro:husky prefix="${prefix}" />
+        <xacro:husky />
+
+        <!-- velodyne-16 model -->
+        <xacro:vlp16_model /> 
 
     </xacro:macro>
 </robot>
