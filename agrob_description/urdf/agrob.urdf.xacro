@@ -7,6 +7,10 @@
 
     <xacro:macro name="agrob" params="prefix">
 
+    <material name="tower_color">
+        <color rgba="0 0 0.8 1"/>
+    </material> 
+
         <!-- vehicle model -->
 <!--        <xacro:husky />-->
 
@@ -20,6 +24,7 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
               <box size="0.3 0.3 0.8" />
+              <material name="tower_color" />
             </geometry>
           </visual>
         </link>
