@@ -1,15 +1,45 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="agrob">
-    <xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro" />
-    <xacro:include filename="$(find hector_sensors_description)/urdf/vlp16.urdf.xacro" />
+    <!--<xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro" />-->
+    <!-- <xacro:include filename="$(find hector_sensors_description)/urdf/vlp16.urdf.xacro" /> -->
 
     <xacro:macro name="agrob" params="prefix">
 
         <!-- vehicle model -->
-        <xacro:husky />
+        <!--<xacro:husky />-->
 
         <!-- velodyne-16 model -->
-        <xacro:vlp16_model /> 
+        <!--<xacro:vlp16_model /> -->
 
+      <link name="tower_link">
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <box size="0.3 0.3 0.8" />
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="tower_link_2">
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <box size="0.3 0.3 0.8" />
+          </geometry>
+        </visual>
+      </link>
+
+      <joint name="tower_link-tower_link_2" type="fixed">
+        <parent link="tower_link"/>
+        <child link="tower_link_2"/>
+        <origin xyz="-0.15 0 0" rpy="0 0 0" />
+      </joint>
+
+      <joint name="top_plate_front_link_tower_link" type="fixed">
+        <parent link="top_plate_front_link"/>
+        <child link="tower_link"/>
+        <origin xyz="-0.15 0 0" rpy="0 0 0" />
+      </joint>
+    
     </xacro:macro>
 </robot>
