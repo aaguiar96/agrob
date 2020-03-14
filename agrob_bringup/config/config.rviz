@@ -128,11 +128,42 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        tower_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         user_rail_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        vlp16_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        zed_camera_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        zed_left_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed_left_camera_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed_right_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        zed_right_camera_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -140,76 +171,19 @@ Visualization Manager:
       Value: true
       Visual Enabled: true
     - Class: rviz/TF
-      Enabled: true
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_footprint:
-          Value: true
-        base_link:
-          Value: true
-        front_bumper_link:
-          Value: true
-        front_left_wheel_link:
-          Value: true
-        front_right_wheel_link:
-          Value: true
-        imu_link:
-          Value: true
-        inertial_link:
-          Value: true
-        rear_bumper_link:
-          Value: true
-        rear_left_wheel_link:
-          Value: true
-        rear_right_wheel_link:
-          Value: true
-        top_chassis_link:
-          Value: true
-        top_plate_front_link:
-          Value: true
-        top_plate_link:
-          Value: true
-        top_plate_rear_link:
-          Value: true
-        user_rail_link:
-          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
-          base_footprint:
-            {}
-          front_bumper_link:
-            {}
-          front_left_wheel_link:
-            {}
-          front_right_wheel_link:
-            {}
-          imu_link:
-            {}
-          inertial_link:
-            {}
-          rear_bumper_link:
-            {}
-          rear_left_wheel_link:
-            {}
-          rear_right_wheel_link:
-            {}
-          top_chassis_link:
-            {}
-          top_plate_link:
-            top_plate_front_link:
-              {}
-            top_plate_rear_link:
-              {}
-          user_rail_link:
-            {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -238,25 +212,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.830256700515747
+      Distance: 1.7503321170806885
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: -0.14759908616542816
+        Y: 0.1151568740606308
+        Z: 0.5304899215698242
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7952023148536682
+      Pitch: 0.17979778349399567
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.9390628337860107
+      Yaw: 6.2090535163879395
     Saved: ~
 Window Geometry:
   Displays:

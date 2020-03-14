@@ -15,3 +15,7 @@ To visualize the robot model run the following command
 ```
 roslaunch roslaunch agrob_bringup bringup.launch
 ```
+
+## Expected result
+
+![docs/xacro.png](docs/xacro.png)
