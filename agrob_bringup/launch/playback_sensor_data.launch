@@ -4,6 +4,12 @@
     <arg name="rate" default=".5"/>
     <arg name="bag_start" default="0"/>
 
+    <!-- decompress image topics -->
+    <node name="republish_left" type="republish" pkg="image_transport" output="screen"
+      args="compressed in:=/zed/left/image raw out:=/zed/left/image" />
+    <node name="republish_right" type="republish" pkg="image_transport" output="screen"
+      args="compressed in:=/zed/right/image raw out:=/zed/right/image" />
+
     <param name="/use_sim_time" value="true"/>
     <node pkg="rosbag" type="play" name="rosbag_play" output="screen" 
           args="$(arg bag) --clock -r $(arg rate) -l -s $(arg bag_start) /tf:=/tf_dev_null /tf_static:=/tf_static_dev_null"/>
