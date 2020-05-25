@@ -9,7 +9,22 @@
 
     <material name="towercolor">
         <color rgba="0.86 0.86 0.86 1"/>
-    </material> 
+    </material>
+
+
+        <!-- ###################################################### -->
+        <!--To replace the need to add this in the launch file-->
+        <!--<node pkg="tf" type="static_transform_publisher" name="vlp16_to_velodyne" args="0 0 0 0 0 0 1 /vlp16_frame /velodyne 10" />-->
+        <link name="tower_link">
+        </link>
+
+        <joint name="vlp16_frame_to_velodyne" type="fixed">
+          <parent link="vlp16_frame"/>
+          <child link="velodyne"/>
+          <origin xyz="0 0 0" rpy="0 0 1" />
+        </joint>
+        <!--This must be removed once the bags have the correct velodyne link-->
+        <!-- ###################################################### -->
 
         <!-- velodyne-16 model -->
         <xacro:vlp16_model name="vlp16" parent="tower_link">
