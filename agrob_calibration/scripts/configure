@@ -1,0 +1,4 @@
+#!/bin/sh
+# Auto generated on 04/06/2020 18:15:58
+#      ATOMIC Framework
+rosrun atom_calibration configure_calibration_pkg -n agrob_calibration
