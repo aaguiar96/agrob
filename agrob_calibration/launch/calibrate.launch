@@ -29,15 +29,15 @@
     </group>
 </group>
 
-<!--<group unless="$(arg single_pattern)">-->
-<!--    <group if="$(arg use_incomplete_collections)">-->
-<!--        <node name="calibrate" pkg="atom_core" type="calibrate" args="-json $(arg dataset_file) &#45;&#45;show_images &#45;&#45;ros_visualization &#45;&#45;use_incomplete_collections -csf '$(arg csf)' -ssf '$(arg ssf)'" required="true" output="screen"/>-->
-<!--    </group>-->
+<group unless="$(arg single_pattern)">
+    <group if="$(arg use_incomplete_collections)">
+        <node name="calibrate" pkg="atom_core" type="calibrate" args="-json $(arg dataset_file) --show_images --ros_visualization --use_incomplete_collections -csf '$(arg csf)' -ssf '$(arg ssf)'" required="true" output="screen"/>
+    </group>
 
-<!--    <group unless="$(arg use_incomplete_collections)">-->
-<!--        <node name="calibrate" pkg="atom_core" type="calibrate" args="-json $(arg dataset_file) &#45;&#45;show_images &#45;&#45;ros_visualization -csf '$(arg csf)' -ssf '$(arg ssf)'" required="true" output="screen"/>-->
-<!--    </group>-->
-<!--</group>-->
+    <group unless="$(arg use_incomplete_collections)">
+        <node name="calibrate" pkg="atom_core" type="calibrate" args="-json $(arg dataset_file) --show_images --ros_visualization -csf '$(arg csf)' -ssf '$(arg ssf)'" required="true" output="screen"/>
+    </group>
+</group>
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 <!-- Visualization -->
