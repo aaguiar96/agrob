@@ -8,7 +8,7 @@ Panels:
         - /left_camera-Labels-Image1
         - /right_camera-Labels-Image1
       Splitter Ratio: 0.763005793094635
-    Tree Height: 835
+    Tree Height: 523
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -60,6 +60,606 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
+        c0_base_footprint:
+          Value: true
+        c0_base_link:
+          Value: true
+        c0_front_bumper_link:
+          Value: true
+        c0_front_left_wheel_link:
+          Value: true
+        c0_front_right_wheel_link:
+          Value: true
+        c0_imu_link:
+          Value: true
+        c0_inertial_link:
+          Value: true
+        c0_pattern_link:
+          Value: true
+        c0_pattern_link_from_velodyne:
+          Value: true
+        c0_rear_bumper_link:
+          Value: true
+        c0_rear_left_wheel_link:
+          Value: true
+        c0_rear_right_wheel_link:
+          Value: true
+        c0_top_chassis_link:
+          Value: true
+        c0_top_plate_front_link:
+          Value: true
+        c0_top_plate_link:
+          Value: true
+        c0_top_plate_rear_link:
+          Value: true
+        c0_tower_link:
+          Value: true
+        c0_user_rail_link:
+          Value: true
+        c0_velodyne:
+          Value: true
+        c0_vlp16_frame:
+          Value: true
+        c0_zed_camera_center:
+          Value: true
+        c0_zed_left_camera_frame:
+          Value: true
+        c0_zed_left_camera_optical_frame:
+          Value: true
+        c0_zed_right_camera_frame:
+          Value: true
+        c0_zed_right_camera_optical_frame:
+          Value: true
+        c10_base_footprint:
+          Value: true
+        c10_base_link:
+          Value: true
+        c10_front_bumper_link:
+          Value: true
+        c10_front_left_wheel_link:
+          Value: true
+        c10_front_right_wheel_link:
+          Value: true
+        c10_imu_link:
+          Value: true
+        c10_inertial_link:
+          Value: true
+        c10_pattern_link:
+          Value: true
+        c10_pattern_link_from_velodyne:
+          Value: true
+        c10_rear_bumper_link:
+          Value: true
+        c10_rear_left_wheel_link:
+          Value: true
+        c10_rear_right_wheel_link:
+          Value: true
+        c10_top_chassis_link:
+          Value: true
+        c10_top_plate_front_link:
+          Value: true
+        c10_top_plate_link:
+          Value: true
+        c10_top_plate_rear_link:
+          Value: true
+        c10_tower_link:
+          Value: true
+        c10_user_rail_link:
+          Value: true
+        c10_velodyne:
+          Value: true
+        c10_vlp16_frame:
+          Value: true
+        c10_zed_camera_center:
+          Value: true
+        c10_zed_left_camera_frame:
+          Value: true
+        c10_zed_left_camera_optical_frame:
+          Value: true
+        c10_zed_right_camera_frame:
+          Value: true
+        c10_zed_right_camera_optical_frame:
+          Value: true
+        c11_base_footprint:
+          Value: true
+        c11_base_link:
+          Value: true
+        c11_front_bumper_link:
+          Value: true
+        c11_front_left_wheel_link:
+          Value: true
+        c11_front_right_wheel_link:
+          Value: true
+        c11_imu_link:
+          Value: true
+        c11_inertial_link:
+          Value: true
+        c11_pattern_link:
+          Value: true
+        c11_pattern_link_from_velodyne:
+          Value: true
+        c11_rear_bumper_link:
+          Value: true
+        c11_rear_left_wheel_link:
+          Value: true
+        c11_rear_right_wheel_link:
+          Value: true
+        c11_top_chassis_link:
+          Value: true
+        c11_top_plate_front_link:
+          Value: true
+        c11_top_plate_link:
+          Value: true
+        c11_top_plate_rear_link:
+          Value: true
+        c11_tower_link:
+          Value: true
+        c11_user_rail_link:
+          Value: true
+        c11_velodyne:
+          Value: true
+        c11_vlp16_frame:
+          Value: true
+        c11_zed_camera_center:
+          Value: true
+        c11_zed_left_camera_frame:
+          Value: true
+        c11_zed_left_camera_optical_frame:
+          Value: true
+        c11_zed_right_camera_frame:
+          Value: true
+        c11_zed_right_camera_optical_frame:
+          Value: true
+        c12_base_footprint:
+          Value: true
+        c12_base_link:
+          Value: true
+        c12_front_bumper_link:
+          Value: true
+        c12_front_left_wheel_link:
+          Value: true
+        c12_front_right_wheel_link:
+          Value: true
+        c12_imu_link:
+          Value: true
+        c12_inertial_link:
+          Value: true
+        c12_pattern_link:
+          Value: true
+        c12_pattern_link_from_velodyne:
+          Value: true
+        c12_rear_bumper_link:
+          Value: true
+        c12_rear_left_wheel_link:
+          Value: true
+        c12_rear_right_wheel_link:
+          Value: true
+        c12_top_chassis_link:
+          Value: true
+        c12_top_plate_front_link:
+          Value: true
+        c12_top_plate_link:
+          Value: true
+        c12_top_plate_rear_link:
+          Value: true
+        c12_tower_link:
+          Value: true
+        c12_user_rail_link:
+          Value: true
+        c12_velodyne:
+          Value: true
+        c12_vlp16_frame:
+          Value: true
+        c12_zed_camera_center:
+          Value: true
+        c12_zed_left_camera_frame:
+          Value: true
+        c12_zed_left_camera_optical_frame:
+          Value: true
+        c12_zed_right_camera_frame:
+          Value: true
+        c12_zed_right_camera_optical_frame:
+          Value: true
+        c13_base_footprint:
+          Value: true
+        c13_base_link:
+          Value: true
+        c13_front_bumper_link:
+          Value: true
+        c13_front_left_wheel_link:
+          Value: true
+        c13_front_right_wheel_link:
+          Value: true
+        c13_imu_link:
+          Value: true
+        c13_inertial_link:
+          Value: true
+        c13_pattern_link:
+          Value: true
+        c13_pattern_link_from_velodyne:
+          Value: true
+        c13_rear_bumper_link:
+          Value: true
+        c13_rear_left_wheel_link:
+          Value: true
+        c13_rear_right_wheel_link:
+          Value: true
+        c13_top_chassis_link:
+          Value: true
+        c13_top_plate_front_link:
+          Value: true
+        c13_top_plate_link:
+          Value: true
+        c13_top_plate_rear_link:
+          Value: true
+        c13_tower_link:
+          Value: true
+        c13_user_rail_link:
+          Value: true
+        c13_velodyne:
+          Value: true
+        c13_vlp16_frame:
+          Value: true
+        c13_zed_camera_center:
+          Value: true
+        c13_zed_left_camera_frame:
+          Value: true
+        c13_zed_left_camera_optical_frame:
+          Value: true
+        c13_zed_right_camera_frame:
+          Value: true
+        c13_zed_right_camera_optical_frame:
+          Value: true
+        c14_base_footprint:
+          Value: true
+        c14_base_link:
+          Value: true
+        c14_front_bumper_link:
+          Value: true
+        c14_front_left_wheel_link:
+          Value: true
+        c14_front_right_wheel_link:
+          Value: true
+        c14_imu_link:
+          Value: true
+        c14_inertial_link:
+          Value: true
+        c14_pattern_link:
+          Value: true
+        c14_pattern_link_from_velodyne:
+          Value: true
+        c14_rear_bumper_link:
+          Value: true
+        c14_rear_left_wheel_link:
+          Value: true
+        c14_rear_right_wheel_link:
+          Value: true
+        c14_top_chassis_link:
+          Value: true
+        c14_top_plate_front_link:
+          Value: true
+        c14_top_plate_link:
+          Value: true
+        c14_top_plate_rear_link:
+          Value: true
+        c14_tower_link:
+          Value: true
+        c14_user_rail_link:
+          Value: true
+        c14_velodyne:
+          Value: true
+        c14_vlp16_frame:
+          Value: true
+        c14_zed_camera_center:
+          Value: true
+        c14_zed_left_camera_frame:
+          Value: true
+        c14_zed_left_camera_optical_frame:
+          Value: true
+        c14_zed_right_camera_frame:
+          Value: true
+        c14_zed_right_camera_optical_frame:
+          Value: true
+        c15_base_footprint:
+          Value: true
+        c15_base_link:
+          Value: true
+        c15_front_bumper_link:
+          Value: true
+        c15_front_left_wheel_link:
+          Value: true
+        c15_front_right_wheel_link:
+          Value: true
+        c15_imu_link:
+          Value: true
+        c15_inertial_link:
+          Value: true
+        c15_pattern_link:
+          Value: true
+        c15_pattern_link_from_velodyne:
+          Value: true
+        c15_rear_bumper_link:
+          Value: true
+        c15_rear_left_wheel_link:
+          Value: true
+        c15_rear_right_wheel_link:
+          Value: true
+        c15_top_chassis_link:
+          Value: true
+        c15_top_plate_front_link:
+          Value: true
+        c15_top_plate_link:
+          Value: true
+        c15_top_plate_rear_link:
+          Value: true
+        c15_tower_link:
+          Value: true
+        c15_user_rail_link:
+          Value: true
+        c15_velodyne:
+          Value: true
+        c15_vlp16_frame:
+          Value: true
+        c15_zed_camera_center:
+          Value: true
+        c15_zed_left_camera_frame:
+          Value: true
+        c15_zed_left_camera_optical_frame:
+          Value: true
+        c15_zed_right_camera_frame:
+          Value: true
+        c15_zed_right_camera_optical_frame:
+          Value: true
+        c16_base_footprint:
+          Value: true
+        c16_base_link:
+          Value: true
+        c16_front_bumper_link:
+          Value: true
+        c16_front_left_wheel_link:
+          Value: true
+        c16_front_right_wheel_link:
+          Value: true
+        c16_imu_link:
+          Value: true
+        c16_inertial_link:
+          Value: true
+        c16_pattern_link:
+          Value: true
+        c16_pattern_link_from_velodyne:
+          Value: true
+        c16_rear_bumper_link:
+          Value: true
+        c16_rear_left_wheel_link:
+          Value: true
+        c16_rear_right_wheel_link:
+          Value: true
+        c16_top_chassis_link:
+          Value: true
+        c16_top_plate_front_link:
+          Value: true
+        c16_top_plate_link:
+          Value: true
+        c16_top_plate_rear_link:
+          Value: true
+        c16_tower_link:
+          Value: true
+        c16_user_rail_link:
+          Value: true
+        c16_velodyne:
+          Value: true
+        c16_vlp16_frame:
+          Value: true
+        c16_zed_camera_center:
+          Value: true
+        c16_zed_left_camera_frame:
+          Value: true
+        c16_zed_left_camera_optical_frame:
+          Value: true
+        c16_zed_right_camera_frame:
+          Value: true
+        c16_zed_right_camera_optical_frame:
+          Value: true
+        c17_base_footprint:
+          Value: true
+        c17_base_link:
+          Value: true
+        c17_front_bumper_link:
+          Value: true
+        c17_front_left_wheel_link:
+          Value: true
+        c17_front_right_wheel_link:
+          Value: true
+        c17_imu_link:
+          Value: true
+        c17_inertial_link:
+          Value: true
+        c17_pattern_link:
+          Value: true
+        c17_pattern_link_from_velodyne:
+          Value: true
+        c17_rear_bumper_link:
+          Value: true
+        c17_rear_left_wheel_link:
+          Value: true
+        c17_rear_right_wheel_link:
+          Value: true
+        c17_top_chassis_link:
+          Value: true
+        c17_top_plate_front_link:
+          Value: true
+        c17_top_plate_link:
+          Value: true
+        c17_top_plate_rear_link:
+          Value: true
+        c17_tower_link:
+          Value: true
+        c17_user_rail_link:
+          Value: true
+        c17_velodyne:
+          Value: true
+        c17_vlp16_frame:
+          Value: true
+        c17_zed_camera_center:
+          Value: true
+        c17_zed_left_camera_frame:
+          Value: true
+        c17_zed_left_camera_optical_frame:
+          Value: true
+        c17_zed_right_camera_frame:
+          Value: true
+        c17_zed_right_camera_optical_frame:
+          Value: true
+        c18_base_footprint:
+          Value: true
+        c18_base_link:
+          Value: true
+        c18_front_bumper_link:
+          Value: true
+        c18_front_left_wheel_link:
+          Value: true
+        c18_front_right_wheel_link:
+          Value: true
+        c18_imu_link:
+          Value: true
+        c18_inertial_link:
+          Value: true
+        c18_pattern_link:
+          Value: true
+        c18_pattern_link_from_velodyne:
+          Value: true
+        c18_rear_bumper_link:
+          Value: true
+        c18_rear_left_wheel_link:
+          Value: true
+        c18_rear_right_wheel_link:
+          Value: true
+        c18_top_chassis_link:
+          Value: true
+        c18_top_plate_front_link:
+          Value: true
+        c18_top_plate_link:
+          Value: true
+        c18_top_plate_rear_link:
+          Value: true
+        c18_tower_link:
+          Value: true
+        c18_user_rail_link:
+          Value: true
+        c18_velodyne:
+          Value: true
+        c18_vlp16_frame:
+          Value: true
+        c18_zed_camera_center:
+          Value: true
+        c18_zed_left_camera_frame:
+          Value: true
+        c18_zed_left_camera_optical_frame:
+          Value: true
+        c18_zed_right_camera_frame:
+          Value: true
+        c18_zed_right_camera_optical_frame:
+          Value: true
+        c1_base_footprint:
+          Value: true
+        c1_base_link:
+          Value: true
+        c1_front_bumper_link:
+          Value: true
+        c1_front_left_wheel_link:
+          Value: true
+        c1_front_right_wheel_link:
+          Value: true
+        c1_imu_link:
+          Value: true
+        c1_inertial_link:
+          Value: true
+        c1_pattern_link:
+          Value: true
+        c1_pattern_link_from_velodyne:
+          Value: true
+        c1_rear_bumper_link:
+          Value: true
+        c1_rear_left_wheel_link:
+          Value: true
+        c1_rear_right_wheel_link:
+          Value: true
+        c1_top_chassis_link:
+          Value: true
+        c1_top_plate_front_link:
+          Value: true
+        c1_top_plate_link:
+          Value: true
+        c1_top_plate_rear_link:
+          Value: true
+        c1_tower_link:
+          Value: true
+        c1_user_rail_link:
+          Value: true
+        c1_velodyne:
+          Value: true
+        c1_vlp16_frame:
+          Value: true
+        c1_zed_camera_center:
+          Value: true
+        c1_zed_left_camera_frame:
+          Value: true
+        c1_zed_left_camera_optical_frame:
+          Value: true
+        c1_zed_right_camera_frame:
+          Value: true
+        c1_zed_right_camera_optical_frame:
+          Value: true
+        c2_base_footprint:
+          Value: true
+        c2_base_link:
+          Value: true
+        c2_front_bumper_link:
+          Value: true
+        c2_front_left_wheel_link:
+          Value: true
+        c2_front_right_wheel_link:
+          Value: true
+        c2_imu_link:
+          Value: true
+        c2_inertial_link:
+          Value: true
+        c2_pattern_link:
+          Value: true
+        c2_pattern_link_from_velodyne:
+          Value: true
+        c2_rear_bumper_link:
+          Value: true
+        c2_rear_left_wheel_link:
+          Value: true
+        c2_rear_right_wheel_link:
+          Value: true
+        c2_top_chassis_link:
+          Value: true
+        c2_top_plate_front_link:
+          Value: true
+        c2_top_plate_link:
+          Value: true
+        c2_top_plate_rear_link:
+          Value: true
+        c2_tower_link:
+          Value: true
+        c2_user_rail_link:
+          Value: true
+        c2_velodyne:
+          Value: true
+        c2_vlp16_frame:
+          Value: true
+        c2_zed_camera_center:
+          Value: true
+        c2_zed_left_camera_frame:
+          Value: true
+        c2_zed_left_camera_optical_frame:
+          Value: true
+        c2_zed_right_camera_frame:
+          Value: true
+        c2_zed_right_camera_optical_frame:
+          Value: true
         c3_base_footprint:
           Value: true
         c3_base_link:
@@ -75,6 +675,8 @@ Visualization Manager:
         c3_inertial_link:
           Value: true
         c3_pattern_link:
+          Value: true
+        c3_pattern_link_from_velodyne:
           Value: true
         c3_rear_bumper_link:
           Value: true
@@ -107,6 +709,306 @@ Visualization Manager:
         c3_zed_right_camera_frame:
           Value: true
         c3_zed_right_camera_optical_frame:
+          Value: true
+        c4_base_footprint:
+          Value: true
+        c4_base_link:
+          Value: true
+        c4_front_bumper_link:
+          Value: true
+        c4_front_left_wheel_link:
+          Value: true
+        c4_front_right_wheel_link:
+          Value: true
+        c4_imu_link:
+          Value: true
+        c4_inertial_link:
+          Value: true
+        c4_pattern_link:
+          Value: true
+        c4_pattern_link_from_velodyne:
+          Value: true
+        c4_rear_bumper_link:
+          Value: true
+        c4_rear_left_wheel_link:
+          Value: true
+        c4_rear_right_wheel_link:
+          Value: true
+        c4_top_chassis_link:
+          Value: true
+        c4_top_plate_front_link:
+          Value: true
+        c4_top_plate_link:
+          Value: true
+        c4_top_plate_rear_link:
+          Value: true
+        c4_tower_link:
+          Value: true
+        c4_user_rail_link:
+          Value: true
+        c4_velodyne:
+          Value: true
+        c4_vlp16_frame:
+          Value: true
+        c4_zed_camera_center:
+          Value: true
+        c4_zed_left_camera_frame:
+          Value: true
+        c4_zed_left_camera_optical_frame:
+          Value: true
+        c4_zed_right_camera_frame:
+          Value: true
+        c4_zed_right_camera_optical_frame:
+          Value: true
+        c5_base_footprint:
+          Value: true
+        c5_base_link:
+          Value: true
+        c5_front_bumper_link:
+          Value: true
+        c5_front_left_wheel_link:
+          Value: true
+        c5_front_right_wheel_link:
+          Value: true
+        c5_imu_link:
+          Value: true
+        c5_inertial_link:
+          Value: true
+        c5_pattern_link:
+          Value: true
+        c5_pattern_link_from_velodyne:
+          Value: true
+        c5_rear_bumper_link:
+          Value: true
+        c5_rear_left_wheel_link:
+          Value: true
+        c5_rear_right_wheel_link:
+          Value: true
+        c5_top_chassis_link:
+          Value: true
+        c5_top_plate_front_link:
+          Value: true
+        c5_top_plate_link:
+          Value: true
+        c5_top_plate_rear_link:
+          Value: true
+        c5_tower_link:
+          Value: true
+        c5_user_rail_link:
+          Value: true
+        c5_velodyne:
+          Value: true
+        c5_vlp16_frame:
+          Value: true
+        c5_zed_camera_center:
+          Value: true
+        c5_zed_left_camera_frame:
+          Value: true
+        c5_zed_left_camera_optical_frame:
+          Value: true
+        c5_zed_right_camera_frame:
+          Value: true
+        c5_zed_right_camera_optical_frame:
+          Value: true
+        c6_base_footprint:
+          Value: true
+        c6_base_link:
+          Value: true
+        c6_front_bumper_link:
+          Value: true
+        c6_front_left_wheel_link:
+          Value: true
+        c6_front_right_wheel_link:
+          Value: true
+        c6_imu_link:
+          Value: true
+        c6_inertial_link:
+          Value: true
+        c6_pattern_link:
+          Value: true
+        c6_pattern_link_from_velodyne:
+          Value: true
+        c6_rear_bumper_link:
+          Value: true
+        c6_rear_left_wheel_link:
+          Value: true
+        c6_rear_right_wheel_link:
+          Value: true
+        c6_top_chassis_link:
+          Value: true
+        c6_top_plate_front_link:
+          Value: true
+        c6_top_plate_link:
+          Value: true
+        c6_top_plate_rear_link:
+          Value: true
+        c6_tower_link:
+          Value: true
+        c6_user_rail_link:
+          Value: true
+        c6_velodyne:
+          Value: true
+        c6_vlp16_frame:
+          Value: true
+        c6_zed_camera_center:
+          Value: true
+        c6_zed_left_camera_frame:
+          Value: true
+        c6_zed_left_camera_optical_frame:
+          Value: true
+        c6_zed_right_camera_frame:
+          Value: true
+        c6_zed_right_camera_optical_frame:
+          Value: true
+        c7_base_footprint:
+          Value: true
+        c7_base_link:
+          Value: true
+        c7_front_bumper_link:
+          Value: true
+        c7_front_left_wheel_link:
+          Value: true
+        c7_front_right_wheel_link:
+          Value: true
+        c7_imu_link:
+          Value: true
+        c7_inertial_link:
+          Value: true
+        c7_pattern_link:
+          Value: true
+        c7_pattern_link_from_velodyne:
+          Value: true
+        c7_rear_bumper_link:
+          Value: true
+        c7_rear_left_wheel_link:
+          Value: true
+        c7_rear_right_wheel_link:
+          Value: true
+        c7_top_chassis_link:
+          Value: true
+        c7_top_plate_front_link:
+          Value: true
+        c7_top_plate_link:
+          Value: true
+        c7_top_plate_rear_link:
+          Value: true
+        c7_tower_link:
+          Value: true
+        c7_user_rail_link:
+          Value: true
+        c7_velodyne:
+          Value: true
+        c7_vlp16_frame:
+          Value: true
+        c7_zed_camera_center:
+          Value: true
+        c7_zed_left_camera_frame:
+          Value: true
+        c7_zed_left_camera_optical_frame:
+          Value: true
+        c7_zed_right_camera_frame:
+          Value: true
+        c7_zed_right_camera_optical_frame:
+          Value: true
+        c8_base_footprint:
+          Value: true
+        c8_base_link:
+          Value: true
+        c8_front_bumper_link:
+          Value: true
+        c8_front_left_wheel_link:
+          Value: true
+        c8_front_right_wheel_link:
+          Value: true
+        c8_imu_link:
+          Value: true
+        c8_inertial_link:
+          Value: true
+        c8_pattern_link:
+          Value: true
+        c8_pattern_link_from_velodyne:
+          Value: true
+        c8_rear_bumper_link:
+          Value: true
+        c8_rear_left_wheel_link:
+          Value: true
+        c8_rear_right_wheel_link:
+          Value: true
+        c8_top_chassis_link:
+          Value: true
+        c8_top_plate_front_link:
+          Value: true
+        c8_top_plate_link:
+          Value: true
+        c8_top_plate_rear_link:
+          Value: true
+        c8_tower_link:
+          Value: true
+        c8_user_rail_link:
+          Value: true
+        c8_velodyne:
+          Value: true
+        c8_vlp16_frame:
+          Value: true
+        c8_zed_camera_center:
+          Value: true
+        c8_zed_left_camera_frame:
+          Value: true
+        c8_zed_left_camera_optical_frame:
+          Value: true
+        c8_zed_right_camera_frame:
+          Value: true
+        c8_zed_right_camera_optical_frame:
+          Value: true
+        c9_base_footprint:
+          Value: true
+        c9_base_link:
+          Value: true
+        c9_front_bumper_link:
+          Value: true
+        c9_front_left_wheel_link:
+          Value: true
+        c9_front_right_wheel_link:
+          Value: true
+        c9_imu_link:
+          Value: true
+        c9_inertial_link:
+          Value: true
+        c9_pattern_link:
+          Value: true
+        c9_pattern_link_from_velodyne:
+          Value: true
+        c9_rear_bumper_link:
+          Value: true
+        c9_rear_left_wheel_link:
+          Value: true
+        c9_rear_right_wheel_link:
+          Value: true
+        c9_top_chassis_link:
+          Value: true
+        c9_top_plate_front_link:
+          Value: true
+        c9_top_plate_link:
+          Value: true
+        c9_top_plate_rear_link:
+          Value: true
+        c9_tower_link:
+          Value: true
+        c9_user_rail_link:
+          Value: true
+        c9_velodyne:
+          Value: true
+        c9_vlp16_frame:
+          Value: true
+        c9_zed_camera_center:
+          Value: true
+        c9_zed_left_camera_frame:
+          Value: true
+        c9_zed_left_camera_optical_frame:
+          Value: true
+        c9_zed_right_camera_frame:
+          Value: true
+        c9_zed_right_camera_optical_frame:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -141,7 +1043,8 @@ Visualization Manager:
                 c3_tower_link:
                   c3_vlp16_frame:
                     c3_velodyne:
-                      {}
+                      c3_pattern_link_from_velodyne:
+                        {}
                   c3_zed_camera_center:
                     c3_zed_left_camera_frame:
                       c3_zed_left_camera_optical_frame:
@@ -197,7 +1100,7 @@ Visualization Manager:
       Unreliable: false
       Value: false
     - Class: rviz/Image
-      Enabled: true
+      Enabled: false
       Image Topic: /calibrate/c3/zed/zed_node/right/image/labeled
       Max Value: 1
       Median window: 5
@@ -207,7 +1110,7 @@ Visualization Manager:
       Queue Size: 2
       Transport Hint: raw
       Unreliable: false
-      Value: true
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 255; 255; 255
@@ -237,25 +1140,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 2.7745890617370605
+      Distance: 2.860550880432129
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.6447284817695618
-        Y: -0.35647857189178467
-        Z: 9.527429938316345e-7
+        X: 0.9651936292648315
+        Y: -0.32767453789711
+        Z: 8.335337042808533e-7
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8297967910766602
+      Pitch: 0.4997967481613159
       Target Frame: <Fixed Frame>
       Value: XYOrbit (rviz)
-      Yaw: 2.9571826457977295
+      Yaw: 2.7321865558624268
     Saved:
       - Class: rviz/Orbit
         Distance: 4.057810306549072
@@ -280,10 +1183,10 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 995
+  Height: 683
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000016a00000384fc020000000bfb0000001200530065006c0065006300740069006f006e000000003d0000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000004100000384000000dd00fffffffb0000000a00560069006500770073000000018b00000102000000b000fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001a00460072006f006e00740061006c00430061006d006500720061000000012e000001170000000000000000fb000000300062006100730065005f00630061006d006500720061002d004c006100620065006c0073002d0049006d00610067006500000001da000000b30000000000000000000000010000017300000384fc0200000017fb0000003200720069006700680074005f00630061006d006500720061002d004c006100620065006c0073002d0049006d0061006700650100000041000003840000001600fffffffb00000030006c006500660074005f00630061006d006500720061002d004c006100620065006c0073002d0049006d006100670065000000005d000003680000001600fffffffb000000220062006100730065005f00630061006d006500720061002d0049006d00610067006500000000410000024c0000000000000000fb0000001c00460072006f006e00740061006c002d00430061006d006500720061000000003d000001260000000000000000fb0000001e0054006f007000520069006700680074002d00430061006d00650072006100000000410000003a0000000000000000fb0000001c0054006f0070004c006500660074002d00430061006d0065007200610000000041000003840000000000000000fb0000000c00430061006d00650072006100000000410000024c0000000000000000fb0000000c00430061006d006500720061010000003d000003420000000000000000fb0000002a0054006f0070005200690067006800740049006d006100670065002d004c006100620065006c0065006400000000410000024c0000000000000000fb0000000c00430061006d00650072006101000000410000024c0000000000000000fb000000280054006f0070004c0065006600740049006d006100670065002d004c006100620065006c006500640000000177000001160000000000000000fb000000340054006f00700043005200470042004400430061006d002d0049006d006100670065002d004c006100620065006c006c006500640000000120000002a50000000000000000fb0000003a0054006f00700043005200470042004400430061006d006500720061002d0049006d006100670065002d004c006100620065006c006c0065006401000001630000012a0000000000000000fb000000280054006f00700043005200470042004400430061006d006500720061002d0049006d00610067006500000001da000000b30000000000000000fb0000001a0054006f0070004c006500660074002d0049006d00610067006501000000410000024c0000000000000000fb0000001c0054006f007000520069006700680074002d0049006d0061006700650100000169000001240000000000000000fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001e004c00650066007400530074006500720065006f0049006d006100670065000000003d000001340000000000000000fb000000200052006900670068007400530074006500720065006f0049006d0061006700650000000122000000dd0000000000000000fb0000001600460072006f006e007400430061006d006500720061000000003d0000008b0000000000000000fb0000002a0052006900670068007400530074006500720065006f005700690064006500430061006d00650072006100000000ce0000008a0000000000000000fb00000026004c00650066007400530074006500720065006f00570069006400650049006d006100670065000000003d0000019d0000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000556000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d00650000000000000007800000030000fffffffb0000000800540069006d00650100000000000004500000000000000000000004950000038400000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a0000024cfc020000000bfb0000001200530065006c0065006300740069006f006e000000003d0000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c00610079007301000000410000024c000000dd00fffffffb0000000a00560069006500770073000000018b00000102000000b000fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001a00460072006f006e00740061006c00430061006d006500720061000000012e000001170000000000000000fb000000300062006100730065005f00630061006d006500720061002d004c006100620065006c0073002d0049006d00610067006500000001da000000b3000000000000000000000001000001730000024cfc0200000017fb0000003200720069006700680074005f00630061006d006500720061002d004c006100620065006c0073002d0049006d00610067006500000000410000024c0000001600fffffffb00000030006c006500660074005f00630061006d006500720061002d004c006100620065006c0073002d0049006d006100670065000000005d000003680000001600fffffffb000000220062006100730065005f00630061006d006500720061002d0049006d00610067006500000000410000024c0000000000000000fb0000001c00460072006f006e00740061006c002d00430061006d006500720061000000003d000001260000000000000000fb0000001e0054006f007000520069006700680074002d00430061006d00650072006100000000410000003a0000000000000000fb0000001c0054006f0070004c006500660074002d00430061006d0065007200610000000041000003840000000000000000fb0000000c00430061006d00650072006100000000410000024c0000000000000000fb0000000c00430061006d006500720061010000003d000003420000000000000000fb0000002a0054006f0070005200690067006800740049006d006100670065002d004c006100620065006c0065006400000000410000024c0000000000000000fb0000000c00430061006d00650072006101000000410000024c0000000000000000fb000000280054006f0070004c0065006600740049006d006100670065002d004c006100620065006c006500640000000177000001160000000000000000fb000000340054006f00700043005200470042004400430061006d002d0049006d006100670065002d004c006100620065006c006c006500640000000120000002a50000000000000000fb0000003a0054006f00700043005200470042004400430061006d006500720061002d0049006d006100670065002d004c006100620065006c006c0065006401000001630000012a0000000000000000fb000000280054006f00700043005200470042004400430061006d006500720061002d0049006d00610067006500000001da000000b30000000000000000fb0000001a0054006f0070004c006500660074002d0049006d00610067006501000000410000024c0000000000000000fb0000001c0054006f007000520069006700680074002d0049006d0061006700650100000169000001240000000000000000fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001e004c00650066007400530074006500720065006f0049006d006100670065000000003d000001340000000000000000fb000000200052006900670068007400530074006500720065006f0049006d0061006700650000000122000000dd0000000000000000fb0000001600460072006f006e007400430061006d006500720061000000003d0000008b0000000000000000fb0000002a0052006900670068007400530074006500720065006f005700690064006500430061006d00650072006100000000ce0000008a0000000000000000fb00000026004c00650066007400530074006500720065006f00570069006400650049006d006100670065000000003d0000019d0000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000556000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d00650000000000000007800000030000fffffffb0000000800540069006d00650100000000000004500000000000000000000003e60000024c00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -292,7 +1195,7 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1918
+  Width: 1366
   X: 0
   Y: 28
   left_camera-Labels-Image:
