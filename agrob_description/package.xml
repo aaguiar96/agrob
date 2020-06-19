@@ -62,6 +62,9 @@
   <exec_depend>hector_sensors_description</exec_depend>
   <exec_depend>husky_description</exec_depend>
 
+  <exec_depend>hector_xacro_tools</exec_depend>
+  <exec_depend>hector_sensors_description</exec_depend>
+  <exec_depend>husky_description</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
