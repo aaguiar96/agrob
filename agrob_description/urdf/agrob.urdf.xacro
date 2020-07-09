@@ -21,7 +21,7 @@
         <joint name="vlp16_frame_to_velodyne" type="fixed">
           <parent link="vlp16_frame"/>
           <child link="velodyne"/>
-          <origin xyz="0 0 0" rpy="0 0 1" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
         </joint>
         <!--This must be removed once the bags have the correct velodyne link-->
         <!-- ###################################################### -->
