@@ -33,8 +33,7 @@
 description_file: "package://agrob_description/urdf/agrob.urdf.xacro"
 
 # The calibration framework requires a bagfile to extract the necessary data for the calibration.
-#bag_file: "$ROS_BAGS/calibration-01-07-2020/calibration_2020-07-01-10-15-43_0.bag"
-bag_file: "$ROS_BAGS/agrob/agrob_third_test.bag"
+bag_file: "$ROS_BAGS/calibration/calibration_2020-09-15-10-18-43_0.bag"
 
 # You must define a frame of reference for the optimization process.
 # It must exist in the transformation chains of all the sensors which are being calibrated.
@@ -59,25 +58,34 @@ sensors:
     #           If you are calibrating an camera, you should use the raw image produced by the
     #           sensors. Aditionally, it the topic is an image it will automatically use the
     #           respective `camera_info` topic.
-    right_camera: 
+    right_camera:
           link: "zed_right_camera_optical_frame"
           parent_link: "zed_camera_center"
           child_link : "zed_right_camera_frame"
-          topic_name : "/zed_nano/zed_node/right/image"
-      
+          topic_name : "/zed/zed_node/right_raw/image"
 
-    left_camera: 
+
+    left_camera:
           link: "zed_left_camera_optical_frame"
           parent_link: "zed_camera_center"
           child_link : "zed_left_camera_frame"
-          topic_name : "/zed_nano/zed_node/left/image"
-      
+          topic_name : "/zed/zed_node/left_raw/image"
 
-    vlp16: 
+
+    vlp16:
          link: "velodyne"
          parent_link: "tower_link"
          child_link: "vlp16_frame"
          topic_name: "/velodyne_points"
+
+
+# External sensor data to save in a synchronous manner along with the topics with data to be calibrated
+additional_data:
+  zed_point_cloud:
+    link: "zed_left_camera_frame"
+    parent_link: "zed_camera_center"
+    child_link: "zed_left_camera_frame"
+    topic_name: "/zed/zed_node/point_cloud/cloud_registered"
 
 
 # The calibration requires a detectable pattern.

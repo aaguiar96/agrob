@@ -22,7 +22,7 @@
     Rviz interactive markers are used to set the pose of the sensors.
 
 @arg bag_file  Absolute path to the playing bag.
-    default: $(env ROS_BAGS)/agrob/agrob_third_test.bag
+    default: /home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag
 @arg bag_start Playback starting time (in seconds). default: 0.0
 @arg bag_rate  Playback rate. default: 1.0
 -->
@@ -35,7 +35,7 @@
 <arg name="output_file" default="$(find agrob_calibration)/urdf/initial_estimate.urdf.xacro"/>
 <arg name="rviz_file"   default="$(find agrob_calibration)/rviz/set_initial_estimate.rviz"/>
 <!-- arguments to be passed onto playbag.launch  -->
-<arg name="bag_file"  default="$(env ROS_BAGS)/agrob/agrob_third_test.bag"/>
+<arg name="bag_file"  default="/home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag"/>
 <arg name="bag_start" default="0"/>
 <arg name="bag_rate"  default ="1" />
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
