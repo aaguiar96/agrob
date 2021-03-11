@@ -33,7 +33,7 @@
 description_file: "package://agrob_description/urdf/agrob.urdf.xacro"
 
 # The calibration framework requires a bagfile to extract the necessary data for the calibration.
-bag_file: "$ROS_BAGS/calibration/calibration_2020-09-15-10-18-43_0.bag"
+bag_file: "$ROS_BAGS/atom/agrob/21_02_2021.bag"
 
 # You must define a frame of reference for the optimization process.
 # It must exist in the transformation chains of all the sensors which are being calibrated.
@@ -118,7 +118,7 @@ calibration_pattern:
 
     # Mesh file (collada.dae or stl) for showing pattern on rviz. URI or regular path.
     # See: description_file
-    mesh_file: "package://atom_calibration/meshes/charuco_800x600.dae"
+    mesh_file: "package://atom_calibration/meshes/charuco_5X5_800x600.dae"
 
     # The border width from the edge corner to the pattern physical edge.
     # Used for 3D sensors and lidars.
