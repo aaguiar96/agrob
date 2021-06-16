@@ -35,7 +35,8 @@
 <arg name="output_file" default="$(find agrob_calibration)/urdf/initial_estimate.urdf.xacro"/>
 <arg name="rviz_file"   default="$(find agrob_calibration)/rviz/set_initial_estimate.rviz"/>
 <!-- arguments to be passed onto playbag.launch  -->
-<arg name="bag_file"  default="/home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag"/>
+<!--<arg name="bag_file"  default="/home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag"/>-->
+<arg name="bag_file"  default="/home/mike/bagfiles/agrob/agrob_third_test.bag"/>
 <arg name="bag_start" default="0"/>
 <arg name="bag_rate"  default ="1" />
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -58,10 +59,10 @@
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <!-- Publish agrob wheel tfs (visualization workaround) -->
-<node pkg="tf" type="static_transform_publisher" name="front_weel_left_tf" args="0.256 0.285 0.033 0 0 0 1 base_link front_left_wheel_link 100" />
-<node pkg="tf" type="static_transform_publisher" name="front_weel_right_tf" args="0.256 -0.285 0.033 0 0 0 1 base_link front_right_wheel_link 100" />
-<node pkg="tf" type="static_transform_publisher" name="rear_weel_left_tf" args="-0.256 0.285 0.033 0 0 0 1 base_link rear_left_wheel_link 100" />
-<node pkg="tf" type="static_transform_publisher" name="rear_weel_right_tf" args="-0.256 -0.285 0.033 0 0 0 1 base_link rear_right_wheel_link 100" />
+<!--<node pkg="tf" type="static_transform_publisher" name="front_weel_left_tf" args="0.256 0.285 0.033 0 0 0 1 base_link front_left_wheel_link 100" />-->
+<!--<node pkg="tf" type="static_transform_publisher" name="front_weel_right_tf" args="0.256 -0.285 0.033 0 0 0 1 base_link front_right_wheel_link 100" />-->
+<!--<node pkg="tf" type="static_transform_publisher" name="rear_weel_left_tf" args="-0.256 0.285 0.033 0 0 0 1 base_link rear_left_wheel_link 100" />-->
+<!--<node pkg="tf" type="static_transform_publisher" name="rear_weel_right_tf" args="-0.256 -0.285 0.033 0 0 0 1 base_link rear_right_wheel_link 100" />-->
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 </launch>
