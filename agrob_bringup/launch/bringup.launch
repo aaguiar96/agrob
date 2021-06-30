@@ -9,11 +9,4 @@
     <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
 
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-    <!-- Publish agrob wheel tfs (visualization workaround) -->
-    <node pkg="tf" type="static_transform_publisher" name="front_weel_left_tf" args="0.256 0.285 0.033 0 0 0 1 base_link front_left_wheel_link 100" />
-    <node pkg="tf" type="static_transform_publisher" name="front_weel_right_tf" args="0.256 -0.285 0.033 0 0 0 1 base_link front_right_wheel_link 100" />
-    <node pkg="tf" type="static_transform_publisher" name="rear_weel_left_tf" args="-0.256 0.285 0.033 0 0 0 1 base_link rear_left_wheel_link 100" />
-    <node pkg="tf" type="static_transform_publisher" name="rear_weel_right_tf" args="-0.256 -0.285 0.033 0 0 0 1 base_link rear_right_wheel_link 100" />
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 </launch>
