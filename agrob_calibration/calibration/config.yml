@@ -35,6 +35,7 @@ description_file: "package://agrob_description/urdf/agrob.urdf.xacro"
 # The calibration framework requires a bagfile to extract the necessary data for the calibration.
 #bag_file: "$ROS_BAGS/atom/agrob/21_02_2021.bag"
 bag_file: "$ROS_BAGS/agrob/agrob_2020-03-12-10-08-49_0.bag"
+bag_file: "$ROS_BAGS/agrob/agrob_third_test.bag"
 
 # You must define a frame of reference for the optimization process.
 # It must exist in the transformation chains of all the sensors which are being calibrated.
@@ -63,14 +64,16 @@ sensors:
           link: "zed_right_camera_optical_frame"
           parent_link: "zed_camera_center"
           child_link : "zed_right_camera_frame"
-          topic_name : "/zed/zed_node/right_raw/image"
+          # topic_name : "/zed/zed_node/right_raw/image"
+          topic_name : "/zed_nano/zed_node/right/image"
 
 
     left_camera:
           link: "zed_left_camera_optical_frame"
           parent_link: "zed_camera_center"
           child_link : "zed_left_camera_frame"
-          topic_name : "/zed/zed_node/left_raw/image"
+          # topic_name : "/zed/zed_node/left_raw/image"
+          topic_name : "/zed_nano/zed_node/left/image"
 
 
     vlp16:

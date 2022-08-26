@@ -22,47 +22,40 @@
     Rviz interactive markers are used to set the pose of the sensors.
 
 @arg bag_file  Absolute path to the playing bag.
-    default: /home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag
+    default: $(env ROS_BAGS)/agrob/agrob_third_test.bag
 @arg bag_start Playback starting time (in seconds). default: 0.0
 @arg bag_rate  Playback rate. default: 1.0
+@arg marker_size  Size of the markers. default: 0.5
 -->
 
 <launch>
 
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<!-- Parameters-->
-<arg name="config_file" default="$(find agrob_calibration)/calibration/config.yml"/>
-<arg name="output_file" default="$(find agrob_calibration)/urdf/initial_estimate.urdf.xacro"/>
-<arg name="rviz_file"   default="$(find agrob_calibration)/rviz/set_initial_estimate.rviz"/>
-<!-- arguments to be passed onto playbag.launch  -->
-<!--<arg name="bag_file"  default="/home/andreaguiar/Documents/calibration_2020-09-15-10-18-43_0.bag"/>-->
-<arg name="bag_file"  default="/home/mike/bagfiles/agrob/agrob_third_test.bag"/>
-<arg name="bag_start" default="0"/>
-<arg name="bag_rate"  default ="1" />
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- Parameters-->
+    <arg name="config_file" default="$(find agrob_calibration)/calibration/config.yml"/>
+    <arg name="output_file" default="$(find agrob_calibration)/urdf/initial_estimate.urdf.xacro"/>
+    <arg name="rviz_file" default="$(find agrob_calibration)/rviz/set_initial_estimate.rviz"/>
+    <!-- arguments to be passed onto playbag.launch  -->
+    <arg name="bag_file" default="$(env ROS_BAGS)/agrob/agrob_third_test.bag"/>
+    <arg name="bag_start" default="0"/>
+    <arg name="bag_rate" default="1"/>
+    <arg name="marker_size" default="0.5"/>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<!-- Call play bag launch file -->
-<include file="$(find agrob_calibration)/launch/playbag.launch">
-   <arg name="rviz_file" value="$(arg rviz_file)"/>
-   <arg name="bag_file"  value="$(arg bag_file)" />
-   <arg name="bag_start" value="$(arg bag_start)"/>
-   <arg name="bag_rate"  value="$(arg bag_rate)" />
-</include>
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- Call play bag launch file -->
+    <include file="$(find agrob_calibration)/launch/playbag.launch">
+        <arg name="rviz_file" value="$(arg rviz_file)"/>
+        <arg name="bag_file" value="$(arg bag_file)"/>
+        <arg name="bag_start" value="$(arg bag_start)"/>
+        <arg name="bag_rate" value="$(arg bag_rate)"/>
+    </include>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<!-- Start set initial estimate node -->
-<node name="set_initial_estimate" pkg="atom_calibration" type="set_initial_estimate"
-    args="-s 0.5 -f $(arg output_file) -c $(arg config_file)" required="true" output="screen"/>
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<!-- Publish agrob wheel tfs (visualization workaround) -->
-<!--<node pkg="tf" type="static_transform_publisher" name="front_weel_left_tf" args="0.256 0.285 0.033 0 0 0 1 base_link front_left_wheel_link 100" />-->
-<!--<node pkg="tf" type="static_transform_publisher" name="front_weel_right_tf" args="0.256 -0.285 0.033 0 0 0 1 base_link front_right_wheel_link 100" />-->
-<!--<node pkg="tf" type="static_transform_publisher" name="rear_weel_left_tf" args="-0.256 0.285 0.033 0 0 0 1 base_link rear_left_wheel_link 100" />-->
-<!--<node pkg="tf" type="static_transform_publisher" name="rear_weel_right_tf" args="-0.256 -0.285 0.033 0 0 0 1 base_link rear_right_wheel_link 100" />-->
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <!-- Start set initial estimate node -->
+    <node name="set_initial_estimate" pkg="atom_calibration" type="set_initial_estimate"
+          args="-s $(arg marker_size) -f $(arg output_file) -c $(arg config_file)" required="true" output="screen"/>
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 </launch>
